@@ -1,0 +1,22 @@
+[package]
+name = "purpurea"
+version = "0.1.0"
+authors = ["bsoptei <bsoptei@gmail.com>"]
+edition = "2018"
+license = "MIT"
+description = "Attribute based accessor/updater/mutator/constructor generation."
+repository = "https://github.com/bsoptei/purpurea"
+readme = "README.md"
+keywords = ["accessor", "mutator", "updater", "constructor", "getter", "setter", "metaprogramming"]
+categories = ["development-tools", "rust-patterns"]
+
+[dependencies]
+proc-macro2 = "1.0.26"
+quote = "1.0.9"
+
+[dependencies.syn]
+version = "1.0.68"
+features = ["full"]
+
+[lib]
+proc-macro = true
