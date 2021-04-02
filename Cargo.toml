@@ -7,7 +7,7 @@ license = "MIT"
 description = "Attribute based accessor/updater/mutator/constructor generation."
 repository = "https://github.com/bsoptei/purpurea"
 readme = "README.md"
-keywords = ["accessor", "mutator", "updater", "constructor", "getter", "setter", "metaprogramming"]
+keywords = ["accessor", "mutator", "updater", "constructor", "metaprogramming"]
 categories = ["development-tools", "rust-patterns"]
 
 [dependencies]
